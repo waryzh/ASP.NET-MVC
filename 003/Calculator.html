@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function calculate(selCal) {
+            var selCal = document.getElementById("selCal").value;
+            var v1 = document.getElementById("textBox1").value;
+            var v2 = document.getElementById("textBox2").value;
+            var result;
+            if (selCal=="add") {
+                result = parseInt(v1) + parseInt(v2);
+            } else if (selCal=="sub") {
+                result = parseInt(v1) - parseInt(v2);
+            } else if (selCal=="div") {
+                result = parseInt(v1) / parseInt(v2);
+            } else {
+                result = parseInt(v1) * parseInt(v2);
+            }
+            document.getElementById("textBox3").value = result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <input type="text" id="textBox1" value="0" /><br />
+    <input type="text" id="textBox2" value="0"/><br />
+    <input type="text" id="textBox3" value="0"/><br />
+    <input type="button" value="Calculate" onclick="calculate(selCal)"/>
+    <select id="selCal">
+        <option value="add">Add</option>
+        <option value="sub">Sub</option>
+        <option value="mul">Mul</option>
+        <option value="div">Div</option>
+    </select>
+</body>
+</html>

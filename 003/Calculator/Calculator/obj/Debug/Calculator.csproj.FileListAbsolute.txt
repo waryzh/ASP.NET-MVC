@@ -1,0 +1,6 @@
+F:\computer\course\ASP.Net MVC Okay\homework\003\Calculator\Calculator\bin\Calculator.dll.config
+F:\computer\course\ASP.Net MVC Okay\homework\003\Calculator\Calculator\bin\Calculator.dll
+F:\computer\course\ASP.Net MVC Okay\homework\003\Calculator\Calculator\bin\Calculator.pdb
+F:\computer\course\ASP.Net MVC Okay\homework\003\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+F:\computer\course\ASP.Net MVC Okay\homework\003\Calculator\Calculator\obj\Debug\Calculator.dll
+F:\computer\course\ASP.Net MVC Okay\homework\003\Calculator\Calculator\obj\Debug\Calculator.pdb
